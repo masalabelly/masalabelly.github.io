@@ -1,0 +1,128 @@
+@font-face{
+    font-family: 'sacramento.regular';
+    font-weight: 100;
+    src:url('../fonts/LEVIBRUSH.TTF');
+}
+
+@font-face{
+    font-family: 'food';
+    font-weight: 100;
+    src:url('../fonts/Sneaksfood.ttf');
+}
+
+h3{
+    font-family: 'sacramento.regular'!important;
+}
+
+h4{
+    font-family: 'food' !important;
+    font-weight: 700 !important;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.wrapper{
+	/*width: 100%;*/
+	text-align: center;
+	background: url('../img/pizza.jpg');
+    height: 100vh;
+    position: relative;
+}
+
+.social{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.social-icon{
+    width: 40px;
+}
+
+.middle{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.item-section{
+    width: 100%;
+    text-align: center;
+    height: 500px;
+    margin-top: 50px;
+}
+
+
+.item{
+    width: 25%;
+    border: 8px solid white;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    margin-bottom: 40px;
+    position: relative;
+    border-bottom: 10px solid white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    background-color: white;
+    bottom: 55px;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+    display: none;
+}
+
+.desc{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: none;
+}
+
+.item:hover .overlay{
+    display: block;
+}
+
+.item:hover .desc{
+    display: block;
+}
+
+.view{
+    border-radius: 0px !important;
+    outline: none;
+    width: 150px;
+    border: none !important;
+    color: white !important;
+    background-color: #222 !important;
+}
+
+.tilt-left{
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+}
+
+.tilt-right{
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+}
+
+.title{
+    position: absolute;
+    top: 207px;
+    text-align: center;
+}
+
+.img-content{
+    width: 100%;
+}
+
+.two{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
