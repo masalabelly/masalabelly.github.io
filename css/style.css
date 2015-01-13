@@ -10,119 +10,75 @@
     src:url('../fonts/Sneaksfood.ttf');
 }
 
-h3{
+h1{
     font-family: 'sacramento.regular'!important;
 }
 
-h4{
+h3{
     font-family: 'food' !important;
     font-weight: 700 !important;
 }
+
+
 
 body{
     overflow-x: hidden;
 }
 
-.wrapper{
-	/*width: 100%;*/
-	text-align: center;
-	background: url('../img/pizza.jpg');
-    height: 100vh;
-    position: relative;
-}
 
-.social{
-    position: absolute;
-    top: 20px;
-    right: 20px;
-}
-
-.social-icon{
-    width: 40px;
-}
-
-.middle{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.item-section{
+.wrap{
     width: 100%;
     text-align: center;
-    height: 500px;
-    margin-top: 50px;
+    margin-bottom: 80px;
 }
 
-
-.item{
-    width: 25%;
-    border: 8px solid white;
+.cover{
+    width: 100%;
+    margin-bottom: 50px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-    margin-bottom: 40px;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
     position: relative;
-    border-bottom: 10px solid white;
-    display: inline-block;
-    cursor: pointer;
 }
 
-.overlay{
-    position: absolute;
-    top: 0;
-    background-color: white;
-    bottom: 55px;
-    left: 0;
-    right: 0;
-    opacity: 0.5;
-    display: none;
+.cover-thumb{
+    /*position: absolute;*/
+    /*left: 75px;*/
+    /*top: 90px;*/
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
-.desc{
+.img-holder{
     position: absolute;
+    left: 10%;
+    top: 90px;
+    text-align: left;
+}
+
+.head  {
+    color: white;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+    font-size: 7vw !important;
+}
+
+.subhead  {
+    color: white;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+    font-size: 6vw !important;
+}
+
+p::first-letter{
+    font-size: 36px;
+    color: brown;
+}
+
+p{
+    font-family: raleway;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 50px;
     width: 100%;
-    top: 0;
-    display: none;
+    text-align: justify;
 }
-
-.item:hover .overlay{
-    display: block;
-}
-
-.item:hover .desc{
-    display: block;
-}
-
-.view{
-    border-radius: 0px !important;
-    outline: none;
-    width: 150px;
-    border: none !important;
-    color: white !important;
-    background-color: #222 !important;
-}
-
-.tilt-left{
-    -webkit-transform: rotate(-2deg);
-    -moz-transform: rotate(-2deg);
-}
-
-.tilt-right{
-    -webkit-transform: rotate(1deg);
-    -moz-transform: rotate(1deg);
-}
-
-.title{
-    position: absolute;
-    top: 207px;
-    text-align: center;
-}
-
-.img-content{
-    width: 100%;
-}
-
-.two{
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-
